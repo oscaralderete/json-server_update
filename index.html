@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>JSON Server</title>
+  </head>
+  <body>
+    <nav>
+      <h1>All Blogs</h1>
+      <a href="/create.html">Add a new blog</a>
+    </nav>
+
+    <form action="" class="search">
+      <input type="text" name="term" placeholder="search..." />
+    </form>
+
+    <div class="blogs">
+      <!-- inject blogs here from js -->
+      loading!
+    </div>
+
+    <p>
+      IMPORTANT: Set your current running json-server port in the file
+      <strong>/common/constants.js</strong>
+    </p>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>

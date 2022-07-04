@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>JSON Server</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Edit Blog</h1>
+      <a id="back">Cancel</a>
+    </nav>
+
+    <form>
+      <input type="text" name="title" required placeholder="Blog title" />
+      <textarea name="body" required placeholder="Blog body"></textarea>
+      <input name="likes" type="hidden" />
+      <button>Update</button>
+    </form>
+
+    <script type="module" src="js/edit.js"></script>
+  </body>
+</html>
